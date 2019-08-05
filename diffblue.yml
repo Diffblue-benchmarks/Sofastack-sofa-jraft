@@ -176,49 +176,11 @@ phases:
       cover-only: file
 units:
  - target:
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/storage/KVOperation.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/storage/KVOperation.java
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/storage/NodeExecutor.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/storage/NodeExecutor.java
    - dir: jraft-core/target/classes
-     file: com/alipay/sofa/jraft/util/Requires.class
+     file: com/alipay/sofa/jraft/util/Bytes.class
      sourceDir: jraft-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/util/Requires.java
+     sourceFile: com/alipay/sofa/jraft/util/Bytes.java
    - dir: jraft-core/target/classes
      file: com/alipay/sofa/jraft/util/BytesUtil.class
      sourceDir: jraft-core/src/main/java
      sourceFile: com/alipay/sofa/jraft/util/BytesUtil.java
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/util/Pair.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/util/Pair.java
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/util/concurrent/DistributedLock$Acquirer.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/util/concurrent/DistributedLock.java
- - target:
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/util/internal/UnsafeDirectBufferUtil.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/util/internal/UnsafeDirectBufferUtil.java
-   - dir: jraft-core/target/classes
-     file: com/alipay/sofa/jraft/util/internal/UnsafeUtil.class
-     sourceDir: jraft-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/util/internal/UnsafeUtil.java
-   - dir: jraft-core/target/classes
-     file: com/alipay/sofa/jraft/util/internal/UnsafeUtil$UnsafeAccessor.class
-     sourceDir: jraft-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/util/internal/UnsafeUtil.java
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/util/StackTraceUtil.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/util/StackTraceUtil.java
- - target:
-   - dir: jraft-rheakv/rheakv-core/target/classes
-     file: com/alipay/sofa/jraft/rhea/util/VarInts.class
-     sourceDir: jraft-rheakv/rheakv-core/src/main/java
-     sourceFile: com/alipay/sofa/jraft/rhea/util/VarInts.java
